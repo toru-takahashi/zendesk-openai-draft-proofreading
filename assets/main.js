@@ -80,7 +80,7 @@ async function getSummary(client, prompt) {
     const response = await client.request(options);
     return response.choices[0].message.content.trim().replace(/(?:\r\n|\r|\n)/g, '<br>');
   } catch (e) {
-     console.log(e);
+     client.invoke('ticket.editor.insert', e.message);
      client.invoke('app.close');
      return;
   }

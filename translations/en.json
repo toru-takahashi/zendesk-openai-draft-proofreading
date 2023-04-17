@@ -2,7 +2,7 @@
   "app": {
     "name": "Zendesk OpenAI Draft Proofreading",
     "short_description": "Use OpenAI's ChatGPT to make and profread your ticket response.",
-    "long_description": "Use OpenAI's ChatGPT to make and profread your ticket response.",
+    "long_description": "Use OpenAI's ChatGPT to make and profread your ticket response.\n",
     "installation_instructions": "Add your OpenAI API key and click install.",
     "parameters": {
       "openAiApiToken" : {
