@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Zendesk OpenAI Draft Proofreading</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/combine/npm/@zendeskgarden/css-bedrock@7.0.21,npm/@zendeskgarden/css-utilities@4.3.0"
+    />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+        <!-- Main container -->
+        <div id="container">
+          <button type="button" class="button" data-btn-id="draft-ja" onclick="load(this)">
+            <span class="button__text">Draft (ja)</span>
+          </button>
+          <button type="button" class="button" data-btn-id="proofread-ja" onclick="load(this)">
+            <span class="button__text">Proofread (ja)</span>
+          </button>
+          <button type="button" class="button" data-btn-id="draft-en" onclick="load(this)">
+            <span class="button__text">Draft (en)</span>
+          </button>
+          <button type="button" class="button" data-btn-id="proofread-en" onclick="load(this)">
+            <span class="button__text">Proofread (en)</span>
+          </button>
+        </div>
+    <script src="https://static.zdassets.com/zendesk_app_framework_sdk/2.0/zaf_sdk.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>

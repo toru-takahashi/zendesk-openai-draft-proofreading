@@ -1,0 +1,25 @@
+{
+  "name": "zendesk-openai-draft-proofreading",
+  "author": {
+    "name": "Toru Takahashi",
+    "email": "torutakahashi.ayashi@gmail.com",
+    "url": "https://github.com/toru-takahashi"
+  },
+  "defaultLocale": "en",
+  "private": true,
+  "location": {
+    "support": {
+      "ticket_editor": "assets/iframe.html"
+    }
+  },
+  "version": "1.0.0",
+  "frameworkVersion": "2.0",
+  "domainWhitelist": ["api.openai.com"],
+  "parameters": [
+    {
+      "name": "openAiApiToken",
+      "type": "text",
+      "secure": true
+    }
+  ]
+}
