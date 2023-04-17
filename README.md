@@ -1,15 +1,25 @@
 # Zendesk OpenAI Draft Proofreading
 
-Zendesk OpenAI Draft Proofreading helps Zendesk Agent to write and proofread a draft of your ticket response by using OpenAI.
+This Zendesk App (Zendesk OpenAI Draft Proofreading) helps Zendesk Agent to write and proofread a draft of your ticket response by using OpenAI.
+
+### Prerequire
+
+- [OpenAPI Paid APIKEY](https://platform.openai.com/account/api-keys)
 
 ### How to use
 
-WIP
+1. Install this app via Zendesk Marketplace
+2. Set OpenAI's APIKEY in the app setting
+3. In Zendesk Ticket view, select one of 4 options;
 
-### Screenshot(s):
+- Draft (ja): Send the ticket conversation to OpenAI and then insert the generated response in Japanese to the comment
+- Proofread (en): Send a text in the ticket comment to OpenAI and then insert the reviewed response  in Japanese to the comment
+- Draft (ja): Send the ticket conversation to OpenAI and then insert the generated response in English to the comment
+- DrProofreadaft (en): Send a text in the ticket comment to OpenAI and then insert the reviewed response  in English to the comment
 
-WIP
+![README](./readme.png)
 
-### Reference
+## License
 
-- https://developer.zendesk.com/documentation/apps/build-an-app/using-ai-to-summarize-conversations-in-a-support-app/
+This repository is licensed under the Apache 2.0 License.
+
