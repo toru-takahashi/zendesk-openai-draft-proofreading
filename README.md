@@ -11,7 +11,7 @@ This Zendesk App (Zendesk OpenAI Draft Proofreading) helps Zendesk Agent to writ
 1. Install this app via Zendesk Marketplace
 2. Set OpenAI's APIKEY in the app setting
 
-![README](./assets/readme.png)
+![README](./assets/screenshot-1.png)
 
 3. In Zendesk Ticket view, select one of 4 options;
 
@@ -20,11 +20,11 @@ This Zendesk App (Zendesk OpenAI Draft Proofreading) helps Zendesk Agent to writ
 - Draft (ja): Send the ticket conversation to OpenAI and then insert the generated response in English to the comment
 - DrProofreadaft (en): Send a text in the ticket comment to OpenAI and then insert the reviewed response  in English to the comment
 
-![README](./assets/readme-1.png)
+![README](./assets/screenshot-2.png)
 
 4. This app automatically inserts the response to the text box.
 
-![README](./assets/readme-2.png)
+![README](./assets/screenshot-3.png)
 
 
 ## License
