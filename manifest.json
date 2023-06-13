@@ -1,5 +1,5 @@
 {
-  "name": "zendesk-openai-draft-proofreading",
+  "name": "draft-proofreading-openai-assist",
   "author": {
     "name": "Toru Takahashi",
     "email": "torutakahashi.ayashi@gmail.com",
@@ -12,7 +12,7 @@
       "ticket_editor": "assets/iframe.html"
     }
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "frameworkVersion": "2.0",
   "domainWhitelist": ["api.openai.com"],
   "parameters": [
