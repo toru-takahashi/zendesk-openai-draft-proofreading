@@ -2,8 +2,13 @@ async function updateSummary(client, btn) {
   const convo = await getTicketConvo(client, btn.getAttribute('data-btn-id'));
   const prompt = await getPrompt(btn.getAttribute('data-btn-id'), convo);
   const summary = await getSummary(client, prompt);
-  client.set('comment.text', ''); // Delete comment
-  client.invoke('ticket.editor.insert', summary);
+  if(summary.length > 20) {
+    client.set('comment.text', ''); // Delete comment
+    client.invoke('ticket.editor.insert', summary);
+  } else {
+    // OpenAI response is too short
+    client.invoke('ticket.editor.insert', "// Returned message is too short or something wrong. Please retry it.");
+  }
   btn.classList.remove("button--loading");
   client.invoke('app.close')
 }
